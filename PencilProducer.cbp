@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="PencilProducer" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\app\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\lib\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\classes\;CMake Files\helper\;CMake Files\test\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/user/se-05-team-08" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/user/se-05-team-08/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/user/se-05-team-08/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/user/se-05-team-08" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/user/se-05-team-08/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/user/se-05-team-08/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/user/se-05-team-08" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/user/se-05-team-08/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/user/se-05-team-08/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pencil-producer">
+         <Option output="/home/user/se-05-team-08/app/pencil-producer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/user/se-05-team-08/app" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/user/se-05-team-08/app" />
+            <Add directory="/home/user/se-05-team-08/classes" />
+            <Add directory="/home/user/se-05-team-08/helper" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/user/se-05-team-08/app/Makefile&quot;  VERBOSE=1 pencil-producer" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/user/se-05-team-08/app/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/app/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/app/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pencil-producer/fast">
+         <Option output="/home/user/se-05-team-08/app/pencil-producer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/user/se-05-team-08/app" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/user/se-05-team-08/app" />
+            <Add directory="/home/user/se-05-team-08/classes" />
+            <Add directory="/home/user/se-05-team-08/helper" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui" />
+            <Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/user/se-05-team-08/app/Makefile&quot;  VERBOSE=1 pencil-producer/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/user/se-05-team-08/app/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/app/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/app/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pencil-producer_automoc">
+         <Option working_dir="/home/user/se-05-team-08/app" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/user/se-05-team-08/app/Makefile&quot;  VERBOSE=1 pencil-producer_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/user/se-05-team-08/app/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/app/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/app/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Marketing">
+         <Option output="/home/user/se-05-team-08/classes/libMarketing.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/user/se-05-team-08/classes" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 Marketing" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Marketing/fast">
+         <Option output="/home/user/se-05-team-08/classes/libMarketing.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/user/se-05-team-08/classes" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 Marketing/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Pencil">
+         <Option output="/home/user/se-05-team-08/classes/libPencil.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/user/se-05-team-08/classes" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 Pencil" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Pencil/fast">
+         <Option output="/home/user/se-05-team-08/classes/libPencil.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/user/se-05-team-08/classes" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 Pencil/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="BankBalance">
+         <Option output="/home/user/se-05-team-08/classes/libBankBalance.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/user/se-05-team-08/classes" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 BankBalance" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="BankBalance/fast">
+         <Option output="/home/user/se-05-team-08/classes/libBankBalance.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/user/se-05-team-08/classes" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 BankBalance/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="APM">
+         <Option output="/home/user/se-05-team-08/classes/libAPM.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/user/se-05-team-08/classes" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 APM" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="APM/fast">
+         <Option output="/home/user/se-05-team-08/classes/libAPM.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/user/se-05-team-08/classes" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 APM/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Graphite">
+         <Option output="/home/user/se-05-team-08/classes/libGraphite.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/user/se-05-team-08/classes" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 Graphite" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Graphite/fast">
+         <Option output="/home/user/se-05-team-08/classes/libGraphite.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/user/se-05-team-08/classes" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 Graphite/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Intelligence">
+         <Option output="/home/user/se-05-team-08/classes/libIntelligence.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/user/se-05-team-08/classes" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 Intelligence" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Intelligence/fast">
+         <Option output="/home/user/se-05-team-08/classes/libIntelligence.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/user/se-05-team-08/classes" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 Intelligence/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Wood">
+         <Option output="/home/user/se-05-team-08/classes/libWood.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/user/se-05-team-08/classes" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 Wood" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Wood/fast">
+         <Option output="/home/user/se-05-team-08/classes/libWood.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/user/se-05-team-08/classes" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 Wood/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/classes/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="CURLHelper">
+         <Option output="/home/user/se-05-team-08/helper/libCURLHelper.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/user/se-05-team-08/helper" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/user/se-05-team-08/helper/Makefile&quot;  VERBOSE=1 CURLHelper" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/user/se-05-team-08/helper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/helper/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/helper/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="CURLHelper/fast">
+         <Option output="/home/user/se-05-team-08/helper/libCURLHelper.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/user/se-05-team-08/helper" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/user/se-05-team-08/helper/Makefile&quot;  VERBOSE=1 CURLHelper/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/user/se-05-team-08/helper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/helper/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/helper/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test-pencil-producer">
+         <Option output="/home/user/se-05-team-08/test/test-pencil-producer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/user/se-05-team-08/test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/user/se-05-team-08/app" />
+            <Add directory="/home/user/se-05-team-08/classes" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/user/se-05-team-08/test/Makefile&quot;  VERBOSE=1 test-pencil-producer" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/user/se-05-team-08/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test-pencil-producer/fast">
+         <Option output="/home/user/se-05-team-08/test/test-pencil-producer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/user/se-05-team-08/test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/user/se-05-team-08/app" />
+            <Add directory="/home/user/se-05-team-08/classes" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/user/se-05-team-08/test/Makefile&quot;  VERBOSE=1 test-pencil-producer/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/user/se-05-team-08/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/user/se-05-team-08/test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/user/se-05-team-08/app/debugger.cpp">
+         <Option target="pencil-producer"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/app/debugger.h">
+         <Option target="pencil-producer"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/app/debugger.ui">
+         <Option target="pencil-producer"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/app/debugmessage.cpp">
+         <Option target="pencil-producer"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/app/debugmessage.h">
+         <Option target="pencil-producer"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/app/debugmessage.ui">
+         <Option target="pencil-producer"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/app/game.cpp">
+         <Option target="pencil-producer"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/app/game.h">
+         <Option target="pencil-producer"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/app/game.ui">
+         <Option target="pencil-producer"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/app/gameover.cpp">
+         <Option target="pencil-producer"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/app/gameover.h">
+         <Option target="pencil-producer"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/app/gameover.ui">
+         <Option target="pencil-producer"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/app/highscore.cpp">
+         <Option target="pencil-producer"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/app/highscore.h">
+         <Option target="pencil-producer"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/app/highscore.ui">
+         <Option target="pencil-producer"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/app/main.cpp">
+         <Option target="pencil-producer"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/app/welcome.cpp">
+         <Option target="pencil-producer"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/app/welcome.h">
+         <Option target="pencil-producer"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/app/welcome.ui">
+         <Option target="pencil-producer"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/classes/apm.cpp">
+         <Option target="APM"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/classes/apm.h">
+         <Option target="APM"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/classes/bankbalance.cpp">
+         <Option target="BankBalance"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/classes/bankbalance.h">
+         <Option target="BankBalance"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/classes/graphite.cpp">
+         <Option target="Graphite"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/classes/graphite.h">
+         <Option target="Graphite"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/classes/intelligence.cpp">
+         <Option target="Intelligence"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/classes/intelligence.h">
+         <Option target="Intelligence"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/classes/marketing.cpp">
+         <Option target="Marketing"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/classes/marketing.h">
+         <Option target="Marketing"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/classes/pencil.cpp">
+         <Option target="Pencil"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/classes/pencil.h">
+         <Option target="Pencil"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/classes/wood.cpp">
+         <Option target="Wood"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/classes/wood.h">
+         <Option target="Wood"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/helper/curl_helper.cpp">
+         <Option target="CURLHelper"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/helper/curl_helper.h">
+         <Option target="CURLHelper"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/test/tests.cpp">
+         <Option target="test-pencil-producer"/>
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/app/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\app\" />
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/classes/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\classes\" />
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/helper/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\helper\" />
+      </Unit>
+      <Unit filename="/home/user/se-05-team-08/test/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\test\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

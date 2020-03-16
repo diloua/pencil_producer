@@ -1,0 +1,48 @@
+{
+	"online-references": [{
+			"url": "https://doc.qt.io/qt-5/...",
+			"contribution": "general qt function usage",
+			"file": "mainwindow.cpp"
+		},
+		{
+			"url": "http://www.cplusplus.com/forum/beginner/8267/",
+			"contribution": "How to create a save file",
+			"file": "mainwindow.cpp"
+		},
+		{
+			"url": [
+				"https://gist.github.com/whoshuu/2dc858b8730079602044",
+				"https://curl.haxx.se/libcurl/c/simple.html",
+				"https://ubuntuforums.org/showthread.php?t=1435926"
+			],
+			"contribution": "HTTP GET with libcurl"
+		},
+		{
+			"url": "https://www.geeksforgeeks.org/bubble-sort/",
+			"contribution": "Sorting the leaderboard"
+		},
+		{
+			"url": "https://stackoverflow.com/questions/46995733/how-to-set-cmake-in-order-to-add-txt-files-into-working-directory-as-resource",
+			"contribution": "Include different files in cmake"
+		},
+		{
+			"url": "https://en.cppreference.com/w/cpp/utility/program/getenv",
+			"contribution": "Using environment variables in code"
+		},
+		{
+			"url": "https://stackoverflow.com/questions/44715069/change-content-type-using-libcurl",
+			"contribution": "Add header content to CURL"
+		}
+	],
+	"colleague ": [{
+			"jacobs-id": "m.kim",
+			"contribution": "Sprint 2 group partner: Used some parts of code",
+			"file": "mainwindow.cpp"
+		},
+		{
+			"jacobs-id": "i.cornea",
+			"contribution": "Helped with save and load functions",
+			"file": "mainwindow.cpp"
+		}
+	]
+}
