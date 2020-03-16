@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/PencilProducer/test/tests.cpp
+apm.h
+/home/user/PencilProducer/test/apm.h
+bankbalance.h
+/home/user/PencilProducer/test/bankbalance.h
+graphite.h
+/home/user/PencilProducer/test/graphite.h
+intelligence.h
+/home/user/PencilProducer/test/intelligence.h
+marketing.h
+/home/user/PencilProducer/test/marketing.h
+pencil.h
+/home/user/PencilProducer/test/pencil.h
+wood.h
+/home/user/PencilProducer/test/wood.h
+iostream
+-
+
+classes/apm.h
+
+classes/bankbalance.h
+
+classes/graphite.h
+
+classes/intelligence.h
+
+classes/marketing.h
+
+classes/pencil.h
+
+classes/wood.h
+

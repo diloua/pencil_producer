@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/test-pencil-producer.dir/tests.cpp.o  -o test-pencil-producer -rdynamic ../classes/libBankBalance.a ../classes/libIntelligence.a ../classes/libWood.a ../classes/libGraphite.a ../classes/libAPM.a ../classes/libPencil.a ../classes/libMarketing.a 
