@@ -1,0 +1,3 @@
+/home/user/se-05-team-08/helper/CMakeFiles/edit_cache.dir
+/home/user/se-05-team-08/helper/CMakeFiles/rebuild_cache.dir
+/home/user/se-05-team-08/helper/CMakeFiles/CURLHelper.dir

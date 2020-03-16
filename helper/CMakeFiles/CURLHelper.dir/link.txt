@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCURLHelper.a  CMakeFiles/CURLHelper.dir/curl_helper.cpp.o
+/usr/bin/ranlib libCURLHelper.a

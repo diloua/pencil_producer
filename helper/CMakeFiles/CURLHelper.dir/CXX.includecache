@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/PencilProducer/helper/curl_helper.cpp
+iostream
+-
+curl/curl.h
+-
+string
+-
+curl_helper.h
+/home/user/PencilProducer/helper/curl_helper.h
+
+/home/user/PencilProducer/helper/curl_helper.h
+
