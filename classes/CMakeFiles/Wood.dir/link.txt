@@ -1,0 +1,2 @@
+/usr/bin/ar qc libWood.a  CMakeFiles/Wood.dir/wood.cpp.o
+/usr/bin/ranlib libWood.a

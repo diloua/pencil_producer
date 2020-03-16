@@ -1,0 +1,2 @@
+/usr/bin/ar qc libIntelligence.a  CMakeFiles/Intelligence.dir/intelligence.cpp.o
+/usr/bin/ranlib libIntelligence.a

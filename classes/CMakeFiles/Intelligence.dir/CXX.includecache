@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/PencilProducer/classes/intelligence.cpp
+intelligence.h
+/home/user/PencilProducer/classes/intelligence.h
+iostream
+-
+
+/home/user/PencilProducer/classes/intelligence.h
+

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/PencilProducer/classes/marketing.cpp
+marketing.h
+/home/user/PencilProducer/classes/marketing.h
+iostream
+-
+
+/home/user/PencilProducer/classes/marketing.h
+

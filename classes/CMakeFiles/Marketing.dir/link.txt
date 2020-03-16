@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMarketing.a  CMakeFiles/Marketing.dir/marketing.cpp.o
+/usr/bin/ranlib libMarketing.a

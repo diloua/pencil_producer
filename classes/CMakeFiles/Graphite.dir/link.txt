@@ -1,0 +1,2 @@
+/usr/bin/ar qc libGraphite.a  CMakeFiles/Graphite.dir/graphite.cpp.o
+/usr/bin/ranlib libGraphite.a

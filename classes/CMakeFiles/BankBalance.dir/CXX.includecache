@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/PencilProducer/classes/bankbalance.cpp
+bankbalance.h
+/home/user/PencilProducer/classes/bankbalance.h
+iostream
+-
+
+/home/user/PencilProducer/classes/bankbalance.h
+

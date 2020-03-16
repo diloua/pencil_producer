@@ -1,0 +1,2 @@
+/usr/bin/ar qc libAPM.a  CMakeFiles/APM.dir/apm.cpp.o
+/usr/bin/ranlib libAPM.a

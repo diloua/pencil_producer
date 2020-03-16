@@ -1,0 +1,2 @@
+/usr/bin/ar qc libPencil.a  CMakeFiles/Pencil.dir/pencil.cpp.o
+/usr/bin/ranlib libPencil.a
