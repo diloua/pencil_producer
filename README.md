@@ -25,7 +25,7 @@ In game :
 
 * Download the project
 
-`cd pencil_producer`
+`cd pencil_producer \\` 
 ` cmake .`
  `make`
  
