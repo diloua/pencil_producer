@@ -25,8 +25,10 @@ In game :
 
 * Download the project
 
-`cd pencil_producer \\` 
+`cd pencil_producer`
+
 ` cmake .`
+
  `make`
  
  When the project is built 2 programs are generated one that is the game itself and the other one that concerns testing.
