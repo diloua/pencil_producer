@@ -32,15 +32,12 @@ In game :
  `make`
  
  When the project is built 2 programs are generated :
- `cd pencil_producer/app`
  
-`.\pencil-producer`
-
+`./pencil_producer/app/pencil-producer`
+ 
 Launches the game 
 
- `cd pencil_producer/test`
-
- `.\test-pencil-producer`
+ `./pencil_producer/test/pencil-producer`
  
 Performs 23 test cases and outputs the passed and failed test cases
 
