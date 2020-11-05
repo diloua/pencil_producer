@@ -37,7 +37,7 @@ In game :
  
 Launches the game 
 
- `./pencil_producer/test/pencil-producer`
+ `./pencil_producer/test/test-pencil-producer`
  
 Performs 23 test cases and outputs the passed and failed test cases
 
