@@ -31,6 +31,17 @@ In game :
 
  `make`
  
- When the project is built 2 programs are generated one that is the game itself and the other one that concerns testing.
+ When the project is built 2 programs are generated :
+ `cd pencil_producer/app`
+ 
+`.\pencil-producer`
+
+Launches the game 
+
+ `cd pencil_producer/test`
+
+ `.\test-pencil-producer`
+ 
+Performs 23 test cases and outputs the passed and failed test cases
 
 
